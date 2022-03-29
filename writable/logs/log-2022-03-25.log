@@ -1,0 +1,19 @@
+CRITICAL - 2022-03-25 16:48:43 --> Call to undefined function App\Controllers\Portal\crear_menu_panel()
+#0 C:\Users\pexty\OneDrive\Escritorio\Nueva carpeta\mascotas\app\Controllers\Portal\Inicio.php(14): App\Controllers\Portal\Inicio->crear_vista('portal/Inicio', Array)
+#1 C:\Users\pexty\OneDrive\Escritorio\Nueva carpeta\mascotas\system\CodeIgniter.php(825): App\Controllers\Portal\Inicio->index()
+#2 C:\Users\pexty\OneDrive\Escritorio\Nueva carpeta\mascotas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portal\Inicio))
+#3 C:\Users\pexty\OneDrive\Escritorio\Nueva carpeta\mascotas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\pexty\OneDrive\Escritorio\Nueva carpeta\mascotas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\pexty\OneDrive\Escritorio\Nueva carpeta\mascotas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\pexty\\...')
+#6 {main}
+CRITICAL - 2022-03-25 17:07:28 --> syntax error, unexpected 're' (T_STRING), expecting ')'
+#0 C:\Users\pexty\OneDrive\Escritorio\Nueva carpeta\mascotas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\pexty\OneDrive\Escritorio\Nueva carpeta\mascotas\system\Common.php(1089): CodeIgniter\View\View->render('portal/Inicio', Array, true)
+#2 C:\Users\pexty\OneDrive\Escritorio\Nueva carpeta\mascotas\app\Controllers\Portal\Inicio.php(29): view('portal/Inicio', Array)
+#3 C:\Users\pexty\OneDrive\Escritorio\Nueva carpeta\mascotas\app\Controllers\Portal\Inicio.php(14): App\Controllers\Portal\Inicio->crear_vista('portal/Inicio', Array)
+#4 C:\Users\pexty\OneDrive\Escritorio\Nueva carpeta\mascotas\system\CodeIgniter.php(825): App\Controllers\Portal\Inicio->index()
+#5 C:\Users\pexty\OneDrive\Escritorio\Nueva carpeta\mascotas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portal\Inicio))
+#6 C:\Users\pexty\OneDrive\Escritorio\Nueva carpeta\mascotas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\pexty\OneDrive\Escritorio\Nueva carpeta\mascotas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\pexty\OneDrive\Escritorio\Nueva carpeta\mascotas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\pexty\\...')
+#9 {main}
